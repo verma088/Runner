@@ -1,0 +1,800 @@
+﻿Log file open, 06/23/16 13:26:49
+LogInit:Display: Running engine for game: Arvind_VR_Proj
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1320044460) SRandInit(1320044461).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.084150
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.4.0(build = 224996) feature version = 0. Client runs version (prod = 1).1.4.0(build = 224996) feature version = 0
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.06.23-18.26.49:472][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.23-18.26.49:472][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.23-18.26.49:485][  0]LogInit: Computer: MSI
+[2016.06.23-18.26.49:485][  0]LogInit: User: OGOR
+[2016.06.23-18.26.49:485][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.06.23-18.26.49:485][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2016.06.23-18.26.49:485][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.06.23-18.26.49:485][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.23-18.26.49:485][  0]LogMemory: Process Physical Memory: 317.96 MB used, 317.96 MB peak
+[2016.06.23-18.26.49:485][  0]LogMemory: Process Virtual Memory: 318.23 MB used, 318.23 MB peak
+[2016.06.23-18.26.49:485][  0]LogMemory: Physical Memory: 6499.49 MB used, 16260.07 MB total
+[2016.06.23-18.26.49:485][  0]LogMemory: Virtual Memory: 692.93 MB used, 134217728.00 MB total
+[2016.06.23-18.26.49:933][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.23-18.26.50:329][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.23-18.26.50:355][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.06.23-18.26.50:355][  0]LogD3D11RHI:       1995MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
+[2016.06.23-18.26.50:363][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.06.23-18.26.50:363][  0]LogD3D11RHI:       128MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 0 output[s]
+[2016.06.23-18.26.50:365][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.06.23-18.26.50:365][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 0 output[s]
+[2016.06.23-18.26.50:365][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.23-18.26.50:372][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.23-18.26.50:372][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.06.23-18.26.50:373][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.06.23-18.26.50:373][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.06.23-18.26.50:373][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.23-18.26.50:386][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.23-18.26.50:396][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Intermediate/Shaders/WorkingDirectory/15508/).
+[2016.06.23-18.26.50:397][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/OGOR/AppData/Local/Temp/UnrealShaderWorkingDir/199458D148F5D441B6F5A3841E2ED177/'.
+[2016.06.23-18.26.50:397][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.23-18.26.52:126][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.23-18.26.52:132][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.23-18.26.52:139][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.23-18.26.52:145][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.23-18.26.52:150][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.23-18.26.52:154][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.23-18.26.52:157][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.23-18.26.52:160][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.23-18.26.52:164][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.23-18.26.52:167][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.23-18.26.52:171][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.23-18.26.52:179][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.23-18.26.52:179][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.23-18.26.52:180][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.23-18.26.52:198][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.23-18.26.52:201][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.23-18.26.52:204][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.23-18.26.52:208][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.23-18.26.52:212][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.23-18.26.52:212][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.23-18.26.52:314][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.23-18.26.52:362][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/OGOR/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.23-18.26.52:362][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/OGOR/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.06.23-18.26.52:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.23-18.26.52:362][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.23-18.26.52:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.23-18.26.52:363][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.23-18.26.52:378][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.23-18.26.52:392][  0]LogDerivedDataCache: Using Local data cache path C:/Users/OGOR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.23-18.26.52:570][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.23-18.26.52:570][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.23-18.26.52:610][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.06.23-18.26.52:739][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.23-18.26.52:739][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.23-18.26.52:739][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.23-18.26.52:959][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.06.23-18.26.52:959][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2016.06.23-18.26.52:959][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.23-18.26.52:968][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.23-18.26.53:078][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.23-18.26.53:078][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.23-18.26.53:171][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.23-18.26.53:171][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.23-18.26.53:171][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.23-18.26.53:171][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.23-18.26.53:171][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.23-18.26.53:171][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.23-18.26.53:702][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.23-18.26.53:845][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2016.06.23-18.26.54:011][  0]SourceControl: Info Source control is disabled
+[2016.06.23-18.26.54:068][  0]SourceControl: Info Source control is disabled
+[2016.06.23-18.26.54:085][  0]SourceControl: Info Source control is disabled
+[2016.06.23-18.26.54:096][  0]SourceControl: Info Source control is disabled
+[2016.06.23-18.26.54:254][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2016.06.23-18.26.54:329][  0]LogEngine: Initializing Engine...
+[2016.06.23-18.26.54:329][  0]LogHMD: Oculus plugin initialized. Version: 4.11.2-2946394+++UE4+Release-4.11, LibOVR: 1.4.0, SDK: 1.3.0, built Apr 18 2016, 02:19:44
+[2016.06.23-18.26.54:464][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.23-18.26.54:471][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.06.23-18.26.54:589][  0]LogInit: FAudioDevice initialized.
+[2016.06.23-18.26.54:611][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/OGOR/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.23-18.26.54:618][  0]LogInit: Texture streaming: Enabled
+[2016.06.23-18.26.54:651][  0]LogInit: Transaction tracking system initialized
+[2016.06.23-18.26.54:683][  0]BlueprintLog: New page: Editor Load
+[2016.06.23-18.26.54:789][  0]LocalizationService: Info Localization service is disabled
+[2016.06.23-18.26.54:868][  0]LogConsoleResponse:Display: 
+[2016.06.23-18.26.54:967][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.23-18.26.54:967][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.23-18.26.54:967][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.23-18.26.55:033][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OGOR/Desktop/Arvind_VR_Proj/Content/' took 0.02s
+[2016.06.23-18.26.55:033][  0]SourceControl: Info Source control is disabled
+[2016.06.23-18.26.55:033][  0]Cmd: MAP LOAD FILE="../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Runner.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.23-18.26.55:034][  0]LightingResults: New page: Lighting Build
+[2016.06.23-18.26.55:037][  0]MapCheck: New page: Map Check
+[2016.06.23-18.26.55:037][  0]LightingResults: New page: Lighting Build
+[2016.06.23-18.26.55:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_12.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:232][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_14.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:242][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_16.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:268][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_18.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:268][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_18.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:268][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_18.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:268][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_18.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:268][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_18.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:284][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_20.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:284][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_20.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:284][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_20.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:284][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_20.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:284][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_20.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:299][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_22.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:299][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_22.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:299][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_22.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:299][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_22.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:299][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EdGraph_22.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:741][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:741][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:741][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:741][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:741][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:741][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:741][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:741][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:741][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:742][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:755][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:755][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_Root_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:755][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:755][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_SequencePlayer_483' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:755][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_SequencePlayer_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:755][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_StateResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_StateResult_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_StateResult_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_StateResult_188' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.AnimGraphNode_TransitionResult_467' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_142' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.AnimGraphNode_TransitionResult_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_148' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_233' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateEntryNode_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.EdGraphNode_Comment_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.EdGraphNode_Comment_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:756][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.EdGraphNode_Comment_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_CallFunction_91451' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CallFunction_11224' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_224620' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_2831' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_CallFunction_92056' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_CallFunction_225505' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:CanJump.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_CallFunction_108580' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_CallFunction_162498' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_CallFunction_169492' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_CallFunction_227144' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_CallFunction_29781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_CallFunction_29886' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_CallFunction_45546' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_CallFunction_45889' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CommutativeAssociativeBinaryOperator_211' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CommutativeAssociativeBinaryOperator_77' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:CanJump.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_521' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_DynamicCast_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_DynamicCast_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_DynamicCast_99' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_Event_1003' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_Event_2429' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_Event_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_ExecutionSequence_180' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:CanJump.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:CanJump.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_IfThenElse_332' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_IfThenElse_413' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_TransitionRuleGetter_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_182' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.K2Node_VariableGet_589' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_125' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:757][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_129' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_1066' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_VariableGet_1084' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.K2Node_VariableGet_624' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:CanJump.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_VariableGet_1007' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_VariableGet_1157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_VariableGet_3156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_VariableSet_1402' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_VariableSet_2289' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_VariableSet_2465' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:758][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims/MixamoAnimBP_GanFaul.MixamoAnimBP_GanFaul:EventGraph.K2Node_VariableSet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.06.23-18.26.55:849][  0]LogAIModule: Creating AISystem for world Runner
+[2016.06.23-18.26.55:854][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.23-18.26.55:854][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.23-18.26.55:902][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.345ms to complete.
+[2016.06.23-18.26.55:902][  0]LogFileHelpers: Loading map 'Runner' took 0.868
+[2016.06.23-18.26.56:026][  0]LogCollectionManager: Loaded 0 collections in 0.003161 seconds
+[2016.06.23-18.26.56:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OGOR/Desktop/Arvind_VR_Proj/Saved/Collections/' took 0.01s
+[2016.06.23-18.26.56:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OGOR/Desktop/Arvind_VR_Proj/Content/Developers/OGOR/Collections/' took 0.01s
+[2016.06.23-18.26.56:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OGOR/Desktop/Arvind_VR_Proj/Content/Collections/' took 0.01s
+[2016.06.23-18.26.56:066][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.06.23-18.26.56:072][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1996 classes and 351 folders.
+[2016.06.23-18.26.56:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.23-18.26.56:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.23-18.26.56:077][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.06.23-18.26.56:084][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.23-18.26.56:090][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.06.23-18.26.56:132][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.23-18.26.56:137][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.06.23-18.26.56:198][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.23-18.26.56:202][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.23-18.26.56:229][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.06.23-18.26.56:230][  0]LogLoad: Full Startup: 8.26 seconds (BP compile: 0.26 seconds)
+[2016.06.23-18.26.56:230][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.23-18.26.56:230][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.23-18.26.56:247][  0]LogOcInput: OculusInput pre-init called
+[2016.06.23-18.26.56:258][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.4.0
+[2016.06.23-18.26.56:304][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.06.23-18.26.56:370][  1]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2016.06.23-18.26.56:370][  1]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2016.06.23-18.26.56:370][  1]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2016.06.23-18.26.56:465][  1]LogAssetRegistry: Asset discovery search completed in 2.6427 seconds
+[2016.06.23-18.26.56:465][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.06.23-18.26.56:465][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.06.23-18.26.56:594][  3]LogRenderer: Reallocating scene render targets to support 32x32 (Frame:2).
+[2016.06.23-18.27.05:053][479]LogRenderer: Reallocating scene render targets to support 832x408 (Frame:6).
+[2016.06.23-18.27.10:910][720]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 108 classes and 0 folders.
+[2016.06.23-18.27.14:363][826]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (KinectAccessLayer)
+[2016.06.23-18.27.25:933][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Avateering/BP_Avateering_Anim" FILE="../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset" SILENT=true
+[2016.06.23-18.27.26:156][431]LogSavePackage: Save=194.02ms
+[2016.06.23-18.27.26:156][431]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/BP_Avateering_AnimD4468FD54263EADF6475ECAC91498F4B.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset'
+[2016.06.23-18.27.26:158][431]LogSavePackage: Total save time: 222.05ms
+[2016.06.23-18.27.26:158][431]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset
+[2016.06.23-18.28.14:832][166]BlueprintLog: New page: Compile BP_Avateering_Anim
+[2016.06.23-18.28.14:897][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.23-18.28.14:897][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.28.15:031][166]BlueprintEditorCompileResults: Info [0087.06] Compile of BP_Avateering_Anim successful! [in 198 ms]
+[2016.06.23-18.28.21:141][373]BlueprintLog: New page: Compile BP_Avateering_Anim
+[2016.06.23-18.28.21:199][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.28.21:272][373]BlueprintEditorCompileResults: Info [0093.30] Compile of BP_Avateering_Anim successful! [in 130 ms]
+[2016.06.23-18.28.22:089][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Avateering/BP_Avateering_Anim" FILE="../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset" SILENT=true
+[2016.06.23-18.28.22:313][402]LogSavePackage: Save=195.05ms
+[2016.06.23-18.28.22:313][402]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/BP_Avateering_Anim3BC95FA743C040AF5DEED783D013CE1F.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset'
+[2016.06.23-18.28.22:318][402]LogSavePackage: Total save time: 226.01ms
+[2016.06.23-18.28.22:318][402]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset
+[2016.06.23-18.28.34:928][894]BlueprintLog: New page: Compile BP_Avateering_Anim
+[2016.06.23-18.28.34:984][894]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.28.35:059][894]BlueprintEditorCompileResults: Info [0107.09] Compile of BP_Avateering_Anim successful! [in 130 ms]
+[2016.06.23-18.28.42:410][151]BlueprintLog: New page: Compile BP_Avateering_Anim
+[2016.06.23-18.28.42:481][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.28.42:562][151]BlueprintEditorCompileResults: Info [0114.59] Compile of BP_Avateering_Anim successful! [in 152 ms]
+[2016.06.23-18.28.43:026][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Avateering/BP_Avateering_Anim" FILE="../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset" SILENT=true
+[2016.06.23-18.28.43:252][162]LogSavePackage: Save=194.66ms
+[2016.06.23-18.28.43:252][162]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/BP_Avateering_Anim6D0E1C164C14918D215D97813F57ED5C.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset'
+[2016.06.23-18.28.43:255][162]LogSavePackage: Total save time: 226.38ms
+[2016.06.23-18.28.43:255][162]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset
+[2016.06.23-18.28.56:811][593]BlueprintLog: New page: Compile BP_Avateering_Anim
+[2016.06.23-18.28.56:871][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.28.56:953][593]BlueprintEditorCompileResults: Info [0128.98] Compile of BP_Avateering_Anim successful! [in 142 ms]
+[2016.06.23-18.29.04:811][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.29.04:811][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.23-18.29.06:732][946]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.06.23-18.29.19:835][372]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.06.23-18.29.24:532][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.06.23-18.29.26:043][709]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.06.23-18.29.26:178][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.06.23-18.29.26:284][709]BlueprintEditorCompileResults: Info [0158.31] Compile of ThirdPersonCharacter successful! [in 241 ms]
+[2016.06.23-18.29.29:497][836]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.06.23-18.29.29:560][836]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.23-18.29.29:560][836]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.29.29:659][836]BlueprintEditorCompileResults: Info [0161.69] Compile of ThirdPersonCharacter successful! [in 162 ms]
+[2016.06.23-18.29.30:346][848]LogSavePackage: Save=121.50ms
+[2016.06.23-18.29.30:346][848]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/ThirdPersonCharacter8AD1A9AD44745C0FD12C42B58198366F.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.06.23-18.29.30:350][848]LogSavePackage: Total save time: 156.65ms
+[2016.06.23-18.29.30:350][848]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.06.23-18.29.44:010][332]BlueprintLog: New page: Compile BP_Avateering_Anim
+[2016.06.23-18.29.44:070][332]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.23-18.29.44:070][332]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.29.44:148][332]BlueprintEditorCompileResults: Info [0176.18] Compile of BP_Avateering_Anim successful! [in 138 ms]
+[2016.06.23-18.29.44:625][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Avateering/BP_Avateering_Anim" FILE="../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset" SILENT=true
+[2016.06.23-18.29.44:857][345]LogSavePackage: Save=203.41ms
+[2016.06.23-18.29.44:857][345]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/BP_Avateering_AnimC24873634BECE4C746219B8150455091.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset'
+[2016.06.23-18.29.44:862][345]LogSavePackage: Total save time: 234.04ms
+[2016.06.23-18.29.44:862][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Blueprints/Avateering/BP_Avateering_Anim.uasset
+[2016.06.23-18.29.46:759][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Runner" FILE="../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Runner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.23-18.29.46:761][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.29.46:893][432]LogSavePackage: Save=86.93ms
+[2016.06.23-18.29.46:893][432]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/Runner55E2B6254C5ACB98D935FF99DBD626C2.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Runner.umap'
+[2016.06.23-18.29.46:897][432]LogSavePackage: Total save time: 120.03ms
+[2016.06.23-18.29.46:897][432]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Runner.umap
+[2016.06.23-18.29.50:107][539]LogSavePackage: Save=114.45ms
+[2016.06.23-18.29.50:107][539]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/ThirdPersonCharacterB49C0D1F486C5FDAC781E6898E8CBC0D.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.06.23-18.29.50:109][539]LogSavePackage: Total save time: 142.26ms
+[2016.06.23-18.29.50:109][539]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.06.23-18.29.51:545][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.29.51:545][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.23-18.29.51:545][594]LogApp: UseVRFocus has changed to 1
+[2016.06.23-18.29.51:545][594]LogApp: HasVRFocus has changed to 1
+[2016.06.23-18.29.51:546][594]PIE: New page: PIE session: Runner (Jun 23, 2016, 8:29:51 AM)
+[2016.06.23-18.29.51:546][594]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Runner
+[2016.06.23-18.29.51:550][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004554s)
+[2016.06.23-18.29.51:551][594]LogAIModule: Creating AISystem for world Runner
+[2016.06.23-18.29.51:551][594]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2016.06.23-18.29.51:551][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner.Runner to /Game/UEDPIE_0_Runner.Runner (0.005346s)
+[2016.06.23-18.29.51:576][594]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.06.23-18.29.51:635][594]LogInit: FAudioDevice initialized.
+[2016.06.23-18.29.51:686][594]LogWorld: Game class is 'RunGameMode_C'
+[2016.06.23-18.29.51:691][594]LogWorld: Bringing World /Game/UEDPIE_0_Runner.Runner up for play (max tick rate 60) at 2016.06.23-13.29.51
+[2016.06.23-18.29.51:744][594]LogWorld: Bringing up level for play took: 0.056783
+[2016.06.23-18.29.51:752][594]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.06.23-18.29.51:770][594]PIE: Info Play in editor start time for /Game/UEDPIE_0_Runner -0.278
+[2016.06.23-18.29.51:770][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.29.51:770][594]LogApp: UseVRFocus has changed to 0
+[2016.06.23-18.29.51:770][594]LogApp: HasVRFocus has changed to 0
+[2016.06.23-18.29.51:794][595]LogRenderer: Reallocating scene render targets to support 1116x628 (Frame:847).
+[2016.06.23-18.30.01:091][830]LogBlueprintUserMessages: [BP_JumpTile_C_0] Hello
+[2016.06.23-18.30.12:986][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.30.13:077][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.35.50:436][643]Cmd: stat fps
+[2016.06.23-18.36.16:932][619]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(c30ea2ll)
+[2016.06.23-18.37.12:682][862]LogEditorViewport: Clicking Background
+[2016.06.23-18.37.14:070][939]LogEditorViewport: Clicking Background
+[2016.06.23-18.41.30:519][558]LogRenderer: Reallocating scene render targets to support 1116x628 (Frame:3591).
+[2016.06.23-18.41.31:162][565]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.23-18.41.31:601][572]LogRenderer: Reallocating scene render targets to support 1116x628 (Frame:3593).
+[2016.06.23-18.41.32:654][588]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.23-18.41.32:674][588]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2016.06.23-18.41.32:674][588]LogSynthBenchmark:Display: ===============
+[2016.06.23-18.41.32:674][588]LogSynthBenchmark:Display: Main Processor:
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:          ... 0.024742 s/Run 'RayIntersect'
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:          ... 0.024553 s/Run 'Fractal'
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display: 
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   CPU Perf Index 0: 103.5 (weight 1.00)
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   CPU Perf Index 1: 116.5 (weight 1.50)
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:  
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display: Graphics:
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 960M'
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2016.06.23-18.41.32:724][588]LogSynthBenchmark:Display:   GPU Memory: 1996/0/8131 MB
+[2016.06.23-18.41.32:745][588]LogSynthBenchmark:Display:   GPU first test: 0.00s
+[2016.06.23-18.41.32:745][588]LogSynthBenchmark:Display:          ... 2.327 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2016.06.23-18.41.32:745][588]LogSynthBenchmark:Display:          ... 1.989 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2016.06.23-18.41.32:745][588]LogSynthBenchmark:Display:          ... 1.607 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2016.06.23-18.41.32:745][588]LogSynthBenchmark:Display:          ... 6.282 GigaPix/s, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2016.06.23-18.41.32:745][588]LogSynthBenchmark:Display:          ... 0.435 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2016.06.23-18.41.32:776][588]LogSynthBenchmark:Display:   GPU second test: 0.03s
+[2016.06.23-18.41.32:776][588]LogSynthBenchmark:Display:          ... 3.241 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2016.06.23-18.41.32:776][588]LogSynthBenchmark:Display:          ... 2.628 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2016.06.23-18.41.32:776][588]LogSynthBenchmark:Display:          ... 2.455 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2016.06.23-18.41.32:776][588]LogSynthBenchmark:Display:          ... 12.890 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2016.06.23-18.41.32:776][588]LogSynthBenchmark:Display:          ... 0.471 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:   GPU third test: 0.26s
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:          ... 3.407 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:          ... 2.749 GigaPix/s, Confidence=100% 'TexHeavy'
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:          ... 2.684 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:          ... 14.333 GigaPix/s, Confidence=100% 'FillOnly'
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:          ... 0.479 GigaPix/s, Confidence=100% 'Bandwidth'
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display: 
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:   GPU Perf Index 0: 74.0 (weight 1.00)
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:   GPU Perf Index 1: 36.9 (weight 0.10)
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:   GPU Perf Index 2: 69.8 (weight 0.10)
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:   GPU Perf Index 3: 56.3 (weight 3.00)
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:   GPU Perf Index 4: 44.7 (weight 1.00)
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:   CPUIndex: 111.3
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:   GPUIndex: 57.4
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display: 
+[2016.06.23-18.41.33:049][588]LogSynthBenchmark:Display:          ... Total Time: 0.374369 sec
+[2016.06.23-18.41.33:132][590]LogRenderer: Reallocating scene render targets to support 1116x628 (Frame:3594).
+[2016.06.23-18.41.33:133][590]LogContentStreaming: Texture pool size now 700 MB
+[2016.06.23-18.41.34:615][613]LogRenderer: Reallocating scene render targets to support 1116x628 (Frame:3595).
+[2016.06.23-18.41.34:757][615]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.23-18.41.35:852][634]LogEditorViewport: Clicking Background
+[2016.06.23-18.41.38:127][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.41.38:127][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.23-18.41.38:127][746]LogApp: UseVRFocus has changed to 1
+[2016.06.23-18.41.38:127][746]LogApp: HasVRFocus has changed to 1
+[2016.06.23-18.41.38:127][746]PIE: New page: PIE session: Runner (Jun 23, 2016, 8:41:38 AM)
+[2016.06.23-18.41.38:127][746]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Runner
+[2016.06.23-18.41.38:133][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005853s)
+[2016.06.23-18.41.38:134][746]LogAIModule: Creating AISystem for world Runner
+[2016.06.23-18.41.38:134][746]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2016.06.23-18.41.38:135][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner.Runner to /Game/UEDPIE_0_Runner.Runner (0.007140s)
+[2016.06.23-18.41.38:135][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.23-18.41.38:135][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.41.38:162][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.06.23-18.41.38:222][746]LogInit: FAudioDevice initialized.
+[2016.06.23-18.41.38:265][746]LogWorld: Game class is 'RunGameMode_C'
+[2016.06.23-18.41.38:268][746]LogWorld: Bringing World /Game/UEDPIE_0_Runner.Runner up for play (max tick rate 60) at 2016.06.23-13.41.38
+[2016.06.23-18.41.38:360][746]LogWorld: Bringing up level for play took: 0.092878
+[2016.06.23-18.41.38:391][746]PIE: Info Play in editor start time for /Game/UEDPIE_0_Runner 0.343
+[2016.06.23-18.41.38:391][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.41.38:391][746]LogApp: UseVRFocus has changed to 0
+[2016.06.23-18.41.38:391][746]LogApp: HasVRFocus has changed to 0
+[2016.06.23-18.41.38:411][747]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:3709).
+[2016.06.23-18.41.42:755][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.41.42:804][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.44.39:479][644]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(c30ea2ll)
+[2016.06.23-18.44.50:745][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.23-18.44.50:745][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.06.23-18.45.38:801][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.06.23-18.45.38:801][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_0) Not registered. Aborting.
+[2016.06.23-18.45.56:111][387]LogMaterial: Missing cached shader map for material M_Spark_VelocityLerp, compiling. 
+[2016.06.23-18.45.56:148][387]LogMaterial: Missing cached shader map for material M_HeatDistort, compiling. 
+[2016.06.23-18.45.56:177][387]LogMaterial: Missing cached shader map for material M_FlareRound, compiling. 
+[2016.06.23-18.45.56:185][387]LogMaterial: Missing cached shader map for material M_Fire_SubUV_11X11_Noise, compiling. 
+[2016.06.23-18.45.56:195][387]LogMaterial: Missing cached shader map for material M_Snow_Blowing_Lit, compiling. 
+[2016.06.23-18.46.29:896][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Runner' took 0.029
+[2016.06.23-18.46.29:914][379]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Blocker] ([1] browsable assets)...
+[2016.06.23-18.46.29:930][379]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Blocker.BP_Blocker]
+[2016.06.23-18.46.29:930][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Blocker]
+[2016.06.23-18.46.30:008][379]LogSavePackage: Save=39.25ms
+[2016.06.23-18.46.30:008][379]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/BP_Blocker_Auto17A28414B42B6AF64C7B2CE8F64459EA4.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Blocker_Auto1.uasset'
+[2016.06.23-18.46.30:023][379]LogSavePackage: Total save time: 90.56ms
+[2016.06.23-18.46.30:023][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Blocker_Auto1.uasset
+[2016.06.23-18.46.30:023][379]LogFileHelpers: Auto-saving content packages took 0.126
+[2016.06.23-18.46.59:285][898]LogUnrealMath: Expression Error : Unrecognized Operator
+[2016.06.23-18.47.11:413][358]BlueprintLog: New page: Compile BP_Blocker
+[2016.06.23-18.47.11:572][358]BlueprintEditorCompileResults: Info [1223.60] Compile of BP_Blocker successful! [in 158 ms]
+[2016.06.23-18.47.14:027][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.47.14:027][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.23-18.47.14:027][444]LogApp: UseVRFocus has changed to 1
+[2016.06.23-18.47.14:027][444]LogApp: HasVRFocus has changed to 1
+[2016.06.23-18.47.14:027][444]PIE: New page: PIE session: Runner (Jun 23, 2016, 8:47:14 AM)
+[2016.06.23-18.47.14:028][444]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Runner
+[2016.06.23-18.47.14:032][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004671s)
+[2016.06.23-18.47.14:033][444]LogAIModule: Creating AISystem for world Runner
+[2016.06.23-18.47.14:033][444]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2016.06.23-18.47.14:033][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner.Runner to /Game/UEDPIE_0_Runner.Runner (0.005446s)
+[2016.06.23-18.47.14:059][444]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.06.23-18.47.14:117][444]LogInit: FAudioDevice initialized.
+[2016.06.23-18.47.14:159][444]LogWorld: Game class is 'RunGameMode_C'
+[2016.06.23-18.47.14:162][444]LogWorld: Bringing World /Game/UEDPIE_0_Runner.Runner up for play (max tick rate 60) at 2016.06.23-13.47.14
+[2016.06.23-18.47.14:196][444]LogWorld: Bringing up level for play took: 0.035878
+[2016.06.23-18.47.14:219][444]PIE: Info Play in editor start time for /Game/UEDPIE_0_Runner 0.171
+[2016.06.23-18.47.14:219][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.47.14:219][444]LogApp: UseVRFocus has changed to 0
+[2016.06.23-18.47.14:219][444]LogApp: HasVRFocus has changed to 0
+[2016.06.23-18.47.19:367][576]LogBlueprintUserMessages: [BP_JumpTile_C_7] Hello
+[2016.06.23-18.47.36:532][ 13]LogBlueprintUserMessages: [BP_JumpTile_C_8] Hello
+[2016.06.23-18.47.39:858][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.47.39:932][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.48.10:283][539]BlueprintLog: New page: Compile BP_Blocker
+[2016.06.23-18.48.10:378][539]BlueprintEditorCompileResults: Info [1282.41] Compile of BP_Blocker successful! [in 94 ms]
+[2016.06.23-18.48.12:613][610]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.48.12:613][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.23-18.48.12:613][610]LogApp: UseVRFocus has changed to 1
+[2016.06.23-18.48.12:613][610]LogApp: HasVRFocus has changed to 1
+[2016.06.23-18.48.12:613][610]PIE: New page: PIE session: Runner (Jun 23, 2016, 8:48:12 AM)
+[2016.06.23-18.48.12:613][610]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Runner
+[2016.06.23-18.48.12:617][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003529s)
+[2016.06.23-18.48.12:617][610]LogAIModule: Creating AISystem for world Runner
+[2016.06.23-18.48.12:618][610]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2016.06.23-18.48.12:618][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Runner.Runner to /Game/UEDPIE_0_Runner.Runner (0.004243s)
+[2016.06.23-18.48.12:642][610]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.06.23-18.48.12:700][610]LogInit: FAudioDevice initialized.
+[2016.06.23-18.48.12:739][610]LogWorld: Game class is 'RunGameMode_C'
+[2016.06.23-18.48.12:741][610]LogWorld: Bringing World /Game/UEDPIE_0_Runner.Runner up for play (max tick rate 60) at 2016.06.23-13.48.12
+[2016.06.23-18.48.12:769][610]LogWorld: Bringing up level for play took: 0.028750
+[2016.06.23-18.48.12:794][610]PIE: Info Play in editor start time for /Game/UEDPIE_0_Runner 0.746
+[2016.06.23-18.48.12:794][610]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.48.12:794][610]LogApp: UseVRFocus has changed to 0
+[2016.06.23-18.48.12:794][610]LogApp: HasVRFocus has changed to 0
+[2016.06.23-18.48.31:451][ 70]LogBlueprintUserMessages: [BP_JumpTile_C_11] Hello
+[2016.06.23-18.48.46:515][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.48.46:587][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Runner.Runner:PersistentLevel' has LevelScriptBlueprint '/Game/Runner.Runner:PersistentLevel.Runner' with GeneratedClass '/Game/Runner.Runner_C' with ClassGeneratedBy '/Game/Runner.Runner:PersistentLevel.Runner'
+[2016.06.23-18.48.50:292][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Runner" FILE="../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Runner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.23-18.48.50:438][631]LogSavePackage: Save=95.97ms
+[2016.06.23-18.48.50:438][631]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/Runner2F3BE07A47BEE3F4DE0F54A87A6644B1.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Runner.umap'
+[2016.06.23-18.48.50:440][631]LogSavePackage: Total save time: 126.70ms
+[2016.06.23-18.48.50:440][631]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/Runner.umap
+[2016.06.23-18.48.53:956][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Blocker" FILE="../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/ThirdPersonBP/Blueprints/BP_Blocker.uasset" SILENT=true
+[2016.06.23-18.48.54:020][743]LogSavePackage: Save=30.97ms
+[2016.06.23-18.48.54:020][743]LogSavePackage: Moving '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Saved/BP_Blocker92AE60194E2DC863319ADE948826FC3F.tmp' to '../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/ThirdPersonBP/Blueprints/BP_Blocker.uasset'
+[2016.06.23-18.48.54:024][743]LogSavePackage: Total save time: 65.08ms
+[2016.06.23-18.48.54:024][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OGOR/Desktop/Arvind_VR_Proj/Content/ThirdPersonBP/Blueprints/BP_Blocker.uasset
+[2016.06.23-18.49.18:235][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.23-18.49.18:312][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.23-18.49.18:362][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.23-18.49.18:610][540]Cmd: QUIT_EDITOR
+[2016.06.23-18.49.19:422][540]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.23-18.49.19:467][540]LogExit: Preparing to exit.
+[2016.06.23-18.49.20:901][540]LogExit: Editor shut down
+[2016.06.23-18.49.20:902][540]LogExit: Transaction tracking system shut down
+[2016.06.23-18.49.21:103][540]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.23-18.49.21:103][540]LogExit: Object subsystem successfully closed.
+[2016.06.23-18.49.21:125][540]LogD3D11RHI: Shutdown
+[2016.06.23-18.49.21:125][540]LogD3D11RHI: CleanupD3DDevice
+[2016.06.23-18.49.21:241][540]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.23-18.49.21:305][540]LogDerivedDataCache: Shutdown
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module SynthBenchmark (209)
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (208)
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module BlueprintGraph (206)
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module SuperSearch (202)
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module WidgetCarousel (201)
+[2016.06.23-18.49.21:306][540]LogModuleManager: Shutting down and abandoning module AddContentDialog (200)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module GameplayTags (199)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module EditorWidgets (198)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module CollectionManager (197)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module StatsViewer (196)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module FoliageEdit (195)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module LandscapeEditor (194)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module ActorPickerMode (193)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module GeometryMode (192)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module TextureAlignMode (191)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module BspMode (190)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module PlacementMode (189)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module AutomationWorker (188)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module CharacterAI (187)
+[2016.06.23-18.49.21:311][540]LogModuleManager: Shutting down and abandoning module SmartSnapping (186)
+[2016.06.23-18.49.21:312][540]LogModuleManager: Shutting down and abandoning module ViewportSnapping (185)
+[2016.06.23-18.49.21:312][540]LogModuleManager: Shutting down and abandoning module LogVisualizer (184)
+[2016.06.23-18.49.21:312][540]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (183)
+[2016.06.23-18.49.21:312][540]LogModuleManager: Shutting down and abandoning module IntroTutorials (182)
+[2016.06.23-18.49.21:312][540]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (181)
+[2016.06.23-18.49.21:312][540]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (180)
+[2016.06.23-18.49.21:312][540]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (179)
+[2016.06.23-18.49.21:312][540]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (178)
+[2016.06.23-18.49.22:196][540]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (177)
+[2016.06.23-18.49.22:196][540]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (176)
+[2016.06.23-18.49.22:196][540]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (175)
+[2016.06.23-18.49.22:196][540]LogModuleManager: Shutting down and abandoning module MergeActors (174)
+[2016.06.23-18.49.22:196][540]LogModuleManager: Shutting down and abandoning module SizeMap (173)
+[2016.06.23-18.49.22:196][540]LogModuleManager: Shutting down and abandoning module TreeMap (172)
+[2016.06.23-18.49.22:196][540]LogModuleManager: Shutting down and abandoning module ReferenceViewer (171)
+[2016.06.23-18.49.22:196][540]LogModuleManager: Shutting down and abandoning module LocalizationService (170)
+[2016.06.23-18.49.22:196][540]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (169)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module HardwareTargeting (168)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (167)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module UndoHistory (166)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module UserFeedback (165)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module XmlParser (164)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module Blutility (163)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (162)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (161)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module InputBindingEditor (160)
+[2016.06.23-18.49.22:197][540]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (159)
+[2016.06.23-18.49.22:198][540]LogModuleManager: Shutting down and abandoning module SettingsEditor (158)
+[2016.06.23-18.49.22:198][540]LogModuleManager: Shutting down and abandoning module ProjectLauncher (157)
+[2016.06.23-18.49.22:198][540]LogModuleManager: Shutting down and abandoning module SessionFrontend (156)
+[2016.06.23-18.49.22:198][540]LogModuleManager: Shutting down and abandoning module ProfilerClient (155)
+[2016.06.23-18.49.22:198][540]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (154)
+[2016.06.23-18.49.22:198][540]LogModuleManager: Shutting down and abandoning module DeviceManager (153)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module AutomationController (152)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module AutomationWindow (151)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module Layers (150)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (149)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module DetailCustomizations (148)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module PackagesDialog (147)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module Persona (146)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module Kismet (145)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module GraphEditor (144)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module ClassViewer (143)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module Toolbox (142)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module ModuleUI (141)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module MovieSceneTools (140)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module OutputLog (139)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module GammaUI (138)
+[2016.06.23-18.49.22:230][540]LogModuleManager: Shutting down and abandoning module Documentation (137)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (136)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module AnalyticsET (135)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module Analytics (134)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module PortalServices (133)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module PortalRpc (132)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module MessagingRpc (131)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module AITestSuite (130)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module GameplayDebugger (129)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module AIModule (128)
+[2016.06.23-18.49.22:231][540]LogModuleManager: Shutting down and abandoning module ProfilerService (127)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module TaskGraph (126)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module SteamVRController (124)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module SteamVR (123)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (122)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module OculusLibrary (121)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module OculusInput (120)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (119)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module CableComponent (118)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (117)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (116)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.06.23-18.49.22:284][540]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.06.23-18.49.22:285][540]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.06.23-18.49.22:286][540]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
+[2016.06.23-18.49.22:291][540]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
+[2016.06.23-18.49.22:477][540]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
+[2016.06.23-18.49.22:478][540]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
+[2016.06.23-18.49.22:478][540]LogModuleManager: Shutting down and abandoning module Kinect4Unreal (93)
+[2016.06.23-18.49.22:478][540]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.06.23-18.49.22:579][540]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.06.23-18.49.22:582][540]LogDerivedDataCache: Shutdown
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.23-18.49.22:582][540]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.23-18.49.22:583][540]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.23-18.49.23:585][540]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.23-18.49.23:585][540]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.23-18.49.23:586][540]LogHMD: Oculus shutdown.
+[2016.06.23-18.49.23:586][540]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.23-18.49.23:586][540]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.23-18.49.23:587][540]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.23-18.49.23:587][540]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.23-18.49.23:587][540]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.23-18.49.23:603][540]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.23-18.49.23:605][540]LogExit: Exiting.
+[2016.06.23-18.49.23:627][540]Log file closed, 06/23/16 13:49:23
